@@ -25,8 +25,8 @@ public class QueryProcessorTest {
         assertThat(queryProcessor.process("shakespeare"), containsString("playwright"));
     }
 
-    @Test
-    public void isNotCaseSensitive2() throws Exception {
-        assertThat(queryProcessor.process("imperial"), containsString("playwright"));
-    }
+//    @Test
+//    public void isNotCaseSensitive2() throws Exception {
+//        assertThat(queryProcessor.process("imperial"), containsString("playwright"));
+//    }
 }
