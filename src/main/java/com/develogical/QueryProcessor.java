@@ -11,7 +11,7 @@ public class QueryProcessor {
         }else if (query.toLowerCase().contains("what is your name")) {
             return "warm-water";
         } else if (query.toLowerCase().contains("what is plus")) {
-            return "+"
+            return "+";
         }
         return "";
     }
