@@ -21,7 +21,7 @@ public class QueryProcessor {
             int first = query.indexOf("multiplied");
             int first_num = Integer.parseInt(query.substring(0, first + 1));
             int second_num = Integer.parseInt(query.substring(first));
-            return String.valueOf(first_num + second_num);
+            return String.valueOf(first_num * second_num);
         }
         return "";
     }
